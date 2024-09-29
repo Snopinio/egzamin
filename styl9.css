@@ -1,0 +1,48 @@
+* {
+    font-family: Georgia, serif;
+    text-align: center;
+}
+header,
+footer {
+background-color:  #BA6B6C;
+color: white;
+padding: 7px;
+}
+div#lewa,
+div#prawa {
+    background-color:#EF9A9A ;
+    width: 20%;
+    height: 500px;
+    float: left;
+}
+div#srodek {
+    background-color: mistyrose;
+    width: 60%;
+    height: 500px;
+    float: left;
+}
+div#dol{
+    clear: both;
+    background-color: mistyrose;
+    padding: 50px;
+}
+ol{
+    list-style: upper-roman;
+}
+li{
+    text-align: left;
+}
+h2::first-letter{
+    font-size: 170%;
+    color: maroon;
+}
+table{
+    margin: auto;
+    width: 80%;
+    border: 1px solid maroon;
+}
+img{
+    height: 120px;
+    margin: 7px;
+    box-shadow:  7px 7px 7px dimgray;
+}
